@@ -31,7 +31,10 @@ body:before {
 
 .container {
   display: flex;
-  justify-content: space-between;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 .item {
@@ -96,7 +99,9 @@ body:before {
   letter-spacing: 1px;
 }
 @media (max-width: 533px) {
-  .container {
-    gap: 30px;
+  .item {
+    font-size: 1.2rem;
+    padding: 5px;
+    margin: 10px;
   }
 }
